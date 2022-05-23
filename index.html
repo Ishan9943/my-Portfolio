@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iamishan,FullStackDeveloper ! Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,100&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,100&family=Open+Sans:wght@300&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My intro</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="/cv.html">CV</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="hem.png" alt="" width="23">
+                <img class="cross" src="close.png" alt="" width="23">
+            </div>
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi I Am</div>
+                    <div class="name">Ishan Choudhury</div>
+                    <div class="about">Developer, Programmer</div>
+                    <div class="moreAbout">I am a full stack developer from India.
+                        I love to build a responsive Websites. Strong in design and integration with problem solving
+                        skills. Passionate About
+                        implementing and launching new projects. looking to start the career as an entry -level
+                        <span>Software Engineer</span> with a reputed
+                        firm driven by technology.
+                    </div>
+                    <div class="buttons">
+                        <a href="https://drive.google.com/file/d/1Uy7CZqrl8iQZiRBAl66l_Y6jsdb6A1if/view?usp=sharing"
+                            target="_blank">
+                            <button class="btn">Download CV</button></a>
+                        <a href="/contact.html"><button class="btn">Contact Me</button></a>
+                    </div>
+                </div>
+                <div class="devPic"><img src="Ishan.png" alt="IshanChoudhury"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyDKimdachK3OApaI-CbPxwe8PZ5UR_h4aQ",
+            authDomain: "my-portfolio-88420.firebaseapp.com",
+            projectId: "my-portfolio-88420",
+            storageBucket: "my-portfolio-88420.appspot.com",
+            messagingSenderId: "107694561812",
+            appId: "1:107694561812:web:4d42a7d3954d60ceeea501",
+            measurementId: "G-8N4YWYS2H8"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+
+</html>
